@@ -44,13 +44,13 @@ function checkAnswer(answer) {
     if (answer === currentQuestion.answer) {
         niveau_eau -= 1
         console.log(haut - niveau_eau)
-        document.querySelector('.mer').style.top = Math.min(202, haut - niveau_eau * 5) + 'px'
+        document.querySelector('.mer').style.top = Math.min(202, haut - niveau_eau * 10) + 'px'
         document.body.classList.add("green");
         document.body.classList.remove("red");
     } else {
         niveau_eau += 1
         console.log(haut - niveau_eau)
-        document.querySelector('.mer').style.top = Math.min(202, haut - niveau_eau * 5) + 'px'
+        document.querySelector('.mer').style.top = Math.min(202, haut - niveau_eau * 10) + 'px'
         document.body.classList.add("red");
         document.body.classList.remove("green");
     }
