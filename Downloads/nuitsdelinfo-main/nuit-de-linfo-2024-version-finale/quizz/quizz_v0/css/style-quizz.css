@@ -1,0 +1,52 @@
+body{
+    background-color: #fff;
+}
+
+nav{
+    background-color:#080E1E;
+    color:#fff;
+}
+
+nav img{
+    width:7%;
+    margin:0.5em;
+}
+
+nav ul{
+    float:right;
+    list-style:none;
+    margin:2.3em 1em;
+}
+
+#equipe{
+    margin:10% 5% 10px;
+}
+
+#equipe, #rfw{
+    width:30%;
+}
+
+.content{
+    position:relative;
+}
+
+.ville img{
+    width:500px;
+}
+
+.mer img{
+    width:500px;
+}
+
+.ville{
+    width: 500px;
+    height:100px;
+    position:absolute;
+}
+
+.mer{
+    width: 500px;
+    height:100px;
+    position:absolute;
+    top:50px;
+}
